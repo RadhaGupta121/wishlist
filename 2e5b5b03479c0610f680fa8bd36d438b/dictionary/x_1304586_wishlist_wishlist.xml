@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c92cdf0b479c0610f680fa8bd36d4340" label="wishlist" max_length="40" name="x_1304586_wishlist_wishlist" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="float"/>
         <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="requester"/>
